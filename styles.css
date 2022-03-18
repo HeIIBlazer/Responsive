@@ -194,7 +194,7 @@ footer {
     padding-top: 70px;
     clear: both;
     font-size: 15px;
-    font-family: 'Roboto';
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-weight: 900;
     color: rgb(37, 116, 79);
@@ -202,19 +202,16 @@ footer {
 }
 
 .leftFoot {
-    font-size: 18px;
     width: 33.3%;
     float: left
 }
 
 .middleFoot {
-    font-size: 18px;
     width: 33.3%;
     float: left
 }
 
 .rightFoot {
-    font-size: 18px;
     width: 33.3%;
     float: left
 }
@@ -236,7 +233,6 @@ footer {
     .aside-right {
         width: 100%;
     }
-
 }
 
 /* Планшет горизантально*/
@@ -264,7 +260,6 @@ footer {
         width: 100%;
         float: center;
     }
-
 }
 
 /*Планшет вертикально */
@@ -288,8 +283,6 @@ footer {
         width: 100%;
         float: center;
     }
-
-
 }
 
 /*Телефон*/
@@ -321,5 +314,9 @@ footer {
     
     .aside-right {
         width: 100%;
+    }
+
+    footer {
+        font-size: 16px;
     }
 }
